@@ -1,0 +1,17 @@
+The letter m - Family - 
+Indicates the category of the instance 
+
+The number 5 - 
+Represents the version of the instance, with newer generations offering improved efficiency and performance.
+
+The term 2xlarge - 
+Defines the capacity and computing power tier of the instance.
+
+The Startup Web Server: You need a balanced mix of compute, memory, and networking for a small student or medium-sized project. Which instance category do you use, and which specific instance family/tier is available under the AWS Free Tier for learning?
+General Purpose: These provide a balanced mix of networking, memory, and compute resources. They are suited for web servers, code repositories, and utility software. The T family, such as the T2.micro, is frequently used for experimentation and is available under the AWS free tier.
+
+The High-Speed BI Reporting Engine: A Business Intelligence application needs to connect to direct databases, perform massive data imports, and manipulate data locally in real time. Which instance category optimizes this workflow, and why is high memory capacity critical here?
+Memory Optimized: Built for workloads that process large data sets in memory, offering high memory capacity and bandwidth. Typical use cases include high-performance databases, real-time data processing, and business intelligence reporting engines.
+
+The High-Concurrency Ticketing Platform: A concert ticketing system experiences massive, sudden spikes with millions of simultaneous transactional requests when sales open. Which instance category provides the disk throughput and IOPS required to keep the system from crashing?
+Storage Optimized: Engineered for workloads requiring high sequential read/write access and the ability to handle heavy IO operations. These are essential for systems with high concurrency demands, such as ticketing platforms experiencing sudden, massive traffic spikes, or managing large-scale relational and NoSQL databases.
